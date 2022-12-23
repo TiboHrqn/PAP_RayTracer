@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PAP_RayTracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tibo/Documents/PAP_RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tibo/Documents/PAP_RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tibo/Documents/PAP_RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PAP_RayTracer">
+				<Option output="/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/PAP_RayTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibo/Documents/PAP_RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tibo/Documents/PAP_RayTracer/src/objects"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 PAP_RayTracer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PAP_RayTracer/fast">
+				<Option output="/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/PAP_RayTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tibo/Documents/PAP_RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tibo/Documents/PAP_RayTracer/src/objects"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 PAP_RayTracer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tibo/Documents/PAP_RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/cube.cpp">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/cube.h">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/object.cpp">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/object.h">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/plane.cpp">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/plane.h">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/quad.cpp">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/quad.h">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/sphere.cpp">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/src/objects/sphere.h">
+			<Option target="PAP_RayTracer"/>
+		</Unit>
+		<Unit filename="/home/tibo/Documents/PAP_RayTracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

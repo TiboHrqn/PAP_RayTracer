@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PAP_RayTracer.dir/src/objects/cube.cpp.o CMakeFiles/PAP_RayTracer.dir/src/objects/object.cpp.o CMakeFiles/PAP_RayTracer.dir/src/objects/plane.cpp.o CMakeFiles/PAP_RayTracer.dir/src/objects/quad.cpp.o CMakeFiles/PAP_RayTracer.dir/src/objects/sphere.cpp.o  -o PAP_RayTracer 
