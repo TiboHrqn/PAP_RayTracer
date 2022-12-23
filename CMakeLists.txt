@@ -4,6 +4,7 @@ project(PAP_RayTracer)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(src/objects)
+include_directories(src/utils)
 
 add_executable(PAP_RayTracer
         src/objects/cube.cpp
@@ -15,4 +16,6 @@ add_executable(PAP_RayTracer
         src/objects/quad.cpp
         src/objects/quad.h
         src/objects/sphere.cpp
-        src/objects/sphere.h)
+        src/objects/sphere.h
+        src/utils/vector3D.cpp
+        src/utils/vector3D.h)
