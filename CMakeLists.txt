@@ -7,6 +7,8 @@ include_directories(src/objects)
 include_directories(src/utils)
 
 add_executable(PAP_RayTracer
+        src/include/objects.h
+        src/include/utils.h
         src/objects/cube.cpp
         src/objects/cube.h
         src/objects/object.cpp
@@ -18,4 +20,5 @@ add_executable(PAP_RayTracer
         src/objects/sphere.cpp
         src/objects/sphere.h
         src/utils/vector3D.cpp
-        src/utils/vector3D.h)
+        src/utils/vector3D.h
+        )
