@@ -21,4 +21,6 @@ add_executable(PAP_RayTracer
         src/objects/sphere.h
         src/utils/vector3D.cpp
         src/utils/vector3D.h
+        src/utils/mathTools.cpp
+        src/utils/mathTools.h
         )
