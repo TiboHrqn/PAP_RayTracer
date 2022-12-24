@@ -1,6 +1,8 @@
 #ifndef OBJECT_H
 #define OBJECT_H
 
+#include "../include/utils.h"
+
 enum ObjectType {
     SPHERE,
     PLANE,
