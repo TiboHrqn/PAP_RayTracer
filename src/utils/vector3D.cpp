@@ -1,5 +1,9 @@
 #include "Vector3D.h"
 
+const Vector3D Vector3D::i3D(1, 0, 0);
+const Vector3D Vector3D::j3D(0, 1, 0);
+const Vector3D Vector3D::k3D(0, 0, 1);
+
 Vector3D Vector3D::operator+(const Vector3D & v) {
     return Vector3D(x + v.x, y + v.y, z + v.z);
 }
