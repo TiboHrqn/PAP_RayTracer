@@ -28,4 +28,14 @@ class Vector3D : public {
 
 typedef Vector3D Point3D;
 
+class ReferenceFrame3D : public {
+    public:
+        Vector3D i, j, k ;
+    
+    public:
+        ReferenceFrame3D (Vector3D i, Vector3D j, Vector3D k) : i(i.normalize), j(j.normalize), k(k.normalize) {};
+        ReferenceFrame3D() : ReferenceFrame3D(Vector3D(1,0,0), Vector3D(0,1,0), Vector3D(0,0,1)) {};
+}
+
+
 #endif //VECTOR3D_H

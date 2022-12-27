@@ -28,4 +28,13 @@ class Vector2D : public {
 
 typedef Vector2D Point2D;
 
+class ReferenceFrame2D : public {
+    public:
+        Vector2D i, j;
+    
+    public:
+        ReferenceFrame2D (Vector2D i, Vector2D j) : i(i.normalize), j(j.normalize) {};
+        ReferenceFrame2D() : ReferenceFrame2D(Vector2D(1,0), Vector2D(0,1)) {};
+}
+
 #endif //VECTOR2D_H

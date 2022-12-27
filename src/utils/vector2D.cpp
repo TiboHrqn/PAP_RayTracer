@@ -1,5 +1,8 @@
 #include "Vector2D.h"
 
+const Vector2D Vector2D::i2D(1, 0);
+const Vector2D Vector2D::j2D(0, 1);
+
 Vector2D Vector2D::operator+(const Vector2D & v) {
     return Vector2D(x + v.x, y + v.y);
 }
