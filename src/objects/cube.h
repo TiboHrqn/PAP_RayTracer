@@ -14,6 +14,6 @@ public:
 
 public:
     Cube(Point3D origin, Vector3D width, Vector3D height, Vector3D length);
-}
+};
 
 #endif //CUBE_H
