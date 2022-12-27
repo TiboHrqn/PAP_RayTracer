@@ -6,6 +6,8 @@ class Vector3D{
     public:
         float x, y, z;
 
+        static const Vector3D i3D, j3D, k3D;
+
     public:
         Vector3D(float x, float y, float z) : x(x), y(y), z(z) {};
         Vector3D() : Vector3D(0, 0, 0) {};

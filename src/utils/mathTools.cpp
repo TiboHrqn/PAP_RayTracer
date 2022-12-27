@@ -1,6 +1,6 @@
 #include <cmath>
 
-#include "MathTools.h"
+#include "mathTools.h"
 
 bool hasRoots(const float &a, const float &b, const float &c) {
     if (b * b - 4 * a * c < 0)

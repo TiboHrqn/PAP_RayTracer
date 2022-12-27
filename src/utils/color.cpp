@@ -1,4 +1,4 @@
-#include "Color.h"
+#include "color.h"
 
 //m need to be between 0 and 1
 Color Color::operator*(float m) {

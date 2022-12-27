@@ -12,6 +12,6 @@ public:
     Plane(Point3D point, Vector3D normal) : point(point), normal(normal.normalize()) {
         type = ObjectType::PLANE;
     };
-}
+};
 
 #endif //PLANE_H

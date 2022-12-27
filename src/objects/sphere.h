@@ -12,6 +12,6 @@ class Sphere : public Object {
         Sphere(Point3D center, float radius) : center(center), radius(radius) {
             type = ObjectType::SPHERE;
         };
-}
+};
 
 #endif //SPHERE_H

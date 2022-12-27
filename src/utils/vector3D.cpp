@@ -1,4 +1,5 @@
-#include "Vector3D.h"
+#include <cmath>
+#include "vector3D.h"
 
 const Vector3D Vector3D::i3D(1, 0, 0);
 const Vector3D Vector3D::j3D(0, 1, 0);

@@ -1,4 +1,6 @@
-#include "Vector2D.h"
+#include "vector2D.h"
+
+#include <cmath>
 
 const Vector2D Vector2D::i2D(1, 0);
 const Vector2D Vector2D::j2D(0, 1);
