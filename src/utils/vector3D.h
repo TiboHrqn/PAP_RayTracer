@@ -16,6 +16,7 @@ class Vector3D : public {
         Vector3D operator-();
         Vector3D operator*(const float &);
         float operator*(const Vector3D &);
+        friend Vector3D operator*(const float &, Vector3D &);
         Vector3D operator/(const float &);
         bool operator==(const Vector3D &);
         bool operator!=(const Vector3D &);

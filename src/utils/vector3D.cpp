@@ -16,6 +16,10 @@ Vector3D Vector3D::operator*(const float & m) {
     return Vector3D(m*x, m*y, m*z);
 }
 
+float Vector3D::operator*(const Vector3D & v) {
+    return x*v.x + y*v.y + z*v.z;
+}
+
 Vector3D operator*(const float & m, Vector3D & p) {
     return p*m;
 }
