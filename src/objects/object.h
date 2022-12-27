@@ -15,7 +15,11 @@ enum ObjectType {
 class Object : public {
     public:
         enum ObjectType type;
+        Color color;
 
+    public:
+        Object() : color(Color()) {};
 };
+
 
 #endif //OBJECT_H
