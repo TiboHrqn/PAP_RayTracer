@@ -33,7 +33,7 @@ class ReferenceFrame2D{
         Vector2D i, j;
     
     public:
-        ReferenceFrame2D (Vector2D i, Vector2D j) : i(i.normalize), j(j.normalize) {};
+        ReferenceFrame2D (Vector2D i, Vector2D j) : i(i.normalize()), j(j.normalize()) {};
         ReferenceFrame2D() : ReferenceFrame2D(Vector2D(1,0), Vector2D(0,1)) {};
 };
 

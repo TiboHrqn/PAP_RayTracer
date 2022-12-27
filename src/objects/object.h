@@ -12,7 +12,7 @@ enum ObjectType {
     TRIANGLE2D
 };
 
-class Object : public {
+class Object {
     public:
         enum ObjectType type;
         Color color;
