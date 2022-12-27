@@ -7,7 +7,9 @@ enum ObjectType {
     SPHERE,
     PLANE,
     QUAD,
-    CUBE
+    CUBE,
+    TRIANGLE3D,
+    TRIANGLE2D
 };
 
 class Object : public {
