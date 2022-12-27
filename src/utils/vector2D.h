@@ -5,6 +5,8 @@
 class Vector2D {
     public:
         float x, y;
+        
+        static const Vector2D i2D, j2D;
 
     public:
         Vector2D(float x, float y) : x(x), y(y) {};
@@ -31,8 +33,6 @@ typedef Vector2D Point2D;
 class ReferenceFrame2D{
     public:
         Vector2D i, j;
-
-        static const Vector3D i2D, j2D;
     
     public:
         ReferenceFrame2D (Vector2D i, Vector2D j) : i(i.normalize()), j(j.normalize()) {};
