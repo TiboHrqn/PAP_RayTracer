@@ -5,7 +5,7 @@
 #include "../utils/vector3D.h"
 
 
-class Camera : public Serializable {
+class Camera{
     public:   
         Point3D position;
 
