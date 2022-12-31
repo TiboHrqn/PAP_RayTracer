@@ -13,6 +13,9 @@ class Vector3D{
         Vector3D() : Vector3D(0, 0, 0) {};
         Vector3D(Vector3D & p1, Vector3D & p2) : Vector3D(p2.x - p1.x, p2.y - p1.y, p2.z - p1.z) {};
 
+        float angleHorizontal(const Vector3D);
+        float angleVertical(const Vector3D);
+
         Vector3D operator+(const Vector3D &);
         Vector3D operator-(const Vector3D &);
         Vector3D operator-();

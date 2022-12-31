@@ -17,6 +17,8 @@ add_executable(PAP_RayTracer
         src/objects/plane.h
         src/objects/quad.cpp
         src/objects/quad.h
+        src/objects/point2D.cpp
+        src/objects/point2D.h
         src/objects/sphere.cpp
         src/objects/sphere.h
         src/utils/vector3D.cpp

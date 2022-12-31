@@ -6,6 +6,7 @@
 #include "../objects/quad.h"
 #include "../objects/plane.h"
 #include "../objects/cube.h"
+#include "../objects/point2D.h"
 #include "../objects/triangle2D.h"
 #include "../objects/triangle3D.h"
 

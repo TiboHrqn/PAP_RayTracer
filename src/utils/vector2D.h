@@ -28,7 +28,7 @@ class Vector2D {
 
 };
 
-typedef Vector2D Point2D;
+//typedef Vector2D Point2D;
 
 class ReferenceFrame2D{
     public:
