@@ -24,6 +24,7 @@ class Vector2D {
         bool operator!=(const Vector2D &);
 
         float norm();
+        float area(const Vector2D);
         Vector2D normalize();
 
 };

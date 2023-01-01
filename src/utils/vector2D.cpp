@@ -46,6 +46,10 @@ float Vector2D::norm() {
     return sqrt(x*x + y*y);
 }
 
+float Vector2D::area(Vector2D v){
+    return x*v.y - y*v.x;
+}
+
 Vector2D Vector2D::normalize() {
     return (*this) / norm();
 }
