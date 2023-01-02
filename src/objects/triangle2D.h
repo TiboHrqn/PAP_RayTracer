@@ -16,14 +16,14 @@ class Triangle2D : public Object {
             type = ObjectType::TRIANGLE2D;
         };
 
-        Triangle2D(Camera camera, Triangle3D t, Color color);
+        Triangle2D(Camera camera, Triangle3D t);
 
         bool isIn(Point2D);
 
         int top();
-        int Left();
+        int left();
         int bottom();
-        int Right();
+        int right();
 };
 
 #endif //TRIANGLE2D_H

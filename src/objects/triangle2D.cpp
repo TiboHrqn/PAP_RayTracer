@@ -3,7 +3,8 @@
 #include "triangle3D.h"
 #include <cmath>
 
-Triangle2D::Triangle2D(Camera camera, Triangle3D t, Color color ) : color(color){
+Triangle2D::Triangle2D(Camera camera, Triangle3D t){
+    color = t.color;
     p1 = Point2D(camera, t.p1);
     p2 = Point2D(camera, t.p2);
     p3 = Point2D(camera, t.p3);
@@ -19,17 +20,17 @@ bool Triangle2D::isIn(Point2D p){
 }
 
 int Triangle2D::top(){
-    return max(max(p1.y, p2.y), p3.y);
+    return std::max(std::max(p1.y, p2.y), p3.y);
 }
 
 int Triangle2D::left(){
-    return min(min(p1.x, p2.x), p3.x);
+    return std::min(std::min(p1.x, p2.x), p3.x);
 }
 
 int Triangle2D::bottom(){
-    return min(min(p1.y, p2.y), p3.y);
+    return std::min(std::min(p1.y, p2.y), p3.y);
 }
 
 int Triangle2D::right(){
-    return max(max(p1.x, p2.x), p3.x);
+    return std::max(std::max(p1.x, p2.x), p3.x);
 }
