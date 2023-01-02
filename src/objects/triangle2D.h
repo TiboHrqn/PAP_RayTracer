@@ -3,6 +3,7 @@
 
 #include "object.h"
 #include "point2D.h"
+#include "triangle3D.h"
 #include "../utils/color.h"
 
 class Triangle2D : public Object {
