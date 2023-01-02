@@ -15,8 +15,8 @@ class Point2D{
     public:
         Point2D(int x, int y, float z) : x(x), y(y) , z(z) {};
         Point2D(Point2D &p) : x(p.x), y(p.y), z(p.z) {};
-        Point2D(Camera camera, Point3D point3d);
-        
+        Point2D(Camera camera, Point3D point3d);   
+        Point2D() : x(0), y(0), z(0){};    
 
 };
 
