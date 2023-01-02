@@ -8,4 +8,12 @@ Point2D::Point2D(Camera camera, Point3D point3d){
     x = (int) cos(angleX) * camera.screenDistance + camera.screenWidth/2 +0.5;
     y = (int) cos(angleY) * camera.screenDistance + camera.screenHeight/2 +0.5;
     z = (point3d-camera.position).norm();
-}
+};
+
+
+Point2D& Point2D::operator=(const Point2D& p){
+    x = p.x;
+    y = p.y;
+    z = p.z;
+    return *this;
+};
