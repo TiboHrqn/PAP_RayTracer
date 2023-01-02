@@ -41,7 +41,10 @@ bool Vector2D::operator!=(const Vector2D & v) {
     return !(*this == v);
 }
 
-
+/**
+    * Computes the norm of a vector
+    * @return the norm of the vector
+    */
 float Vector2D::norm() {
     return sqrt(x*x + y*y);
 }
@@ -49,7 +52,10 @@ float Vector2D::norm() {
 float Vector2D::area(Vector2D v){
     return x*v.y - y*v.x;
 }
-
+/**
+    * Normalize a vector
+    * @return the normalized version of the vector
+    */
 Vector2D Vector2D::normalize() {
     return (*this) / norm();
 }

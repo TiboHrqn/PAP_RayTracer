@@ -6,10 +6,15 @@
 
 
 class Camera{
-    public:   
+    public:  
+        /**
+        the position of the camera
+        */ 
         Point3D position;
-
-        ReferenceFrame3D reference; //i is forward, j is up, k is right
+        /**
+        i is forward, j is up, k is right
+        */
+        ReferenceFrame3D reference; 
 
         float screenDistance = 10;
 

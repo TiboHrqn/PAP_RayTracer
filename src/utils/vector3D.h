@@ -28,7 +28,6 @@ class Vector3D{
 
         float norm();
         Vector3D normalize();
-
 };
 
 typedef Vector3D Point3D;
