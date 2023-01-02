@@ -1,4 +1,0 @@
-/snap/clion/137/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=gcc -G "CodeBlocks - Unix Makefiles" /home/tibo/Documents/PAP_RayTracer
--- Configuring done
--- Generating done
--- Build files have been written to: /home/tibo/Documents/PAP_RayTracer/cmake-build-debug

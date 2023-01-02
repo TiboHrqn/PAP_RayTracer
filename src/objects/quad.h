@@ -11,6 +11,9 @@ public:
     Vector3D width;
     Vector3D height;
     Color color;
+    /**
+    * t1 and t2 are two triangles in the quad covering the whole area
+    */
     Triangle3D t1;
     Triangle3D t2;
 

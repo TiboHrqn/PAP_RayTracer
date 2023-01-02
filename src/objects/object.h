@@ -12,6 +12,9 @@ enum ObjectType {
     TRIANGLE2D
 };
 
+/**
+ * Base class for objects
+ */
 class Object {
     public:
         enum ObjectType type;

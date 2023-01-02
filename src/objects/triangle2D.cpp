@@ -1,5 +1,6 @@
 #include "object.h"
 #include "triangle2D.h"
+#include "point2D.h"
 #include "triangle3D.h"
 #include <cmath>
 
