@@ -1,8 +1,5 @@
-
-#include <stdio.h>
 #include "include/objects.h"
-#include "environment/camera.h"
-#include "environment/sdl.h"
+#include "include/environment.h"
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 640;
