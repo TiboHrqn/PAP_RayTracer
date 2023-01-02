@@ -7,8 +7,8 @@
 class Sphere : public Object {
     public:
         Point3D center;
-        Color color;
         float radius;
+        Color color;
 
     public:
         Sphere(Point3D center, float radius, Color color) : center(center), radius(radius), color(color) {

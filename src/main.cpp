@@ -8,6 +8,7 @@ const int SCREEN_HEIGHT = 480;
 
 int main( int argc, char* args[] )
 {
+	/*
     Camera camera = Camera(Point3D(0,0,0), ReferenceFrame3D());
 	Cube cube = Cube(Point3D(0,0,20), Vector3D(1,0,1), Vector3D(0,1,0), Vector3D(-1,0,1), Color(200, 60, 220));
 	Sdl sdl = Sdl(SCREEN_WIDTH, SCREEN_HEIGHT);
@@ -22,5 +23,6 @@ int main( int argc, char* args[] )
 
 	sdl.show();
 
+*/
 	return 0;
 }
